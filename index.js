@@ -33,23 +33,23 @@ restService.post("/audio", function(req, res) {
     //Speech Synthesis Markup Language 
     case "kuzu no honkai":
       speech =
-        '<speak><audio src="https://vocaroo.com/i/s1pG0OMPtzA5">did not get your audio file</audio></speak>';
+        '<speak><audio src="https://instaud.io/1G7D">did not get your audio file</audio></speak>';
       break;
     case "log horizon":
       speech =
-        '<speak><audio src="https://vocaroo.com/i/s1BYzTGKxIow">did not get your audio file</audio></speak>';
+        '<speak><audio src="https://instaud.io/1G7z">did not get your audio file</audio></speak>';
       break;
     case "parasyte":
       speech =
-        '<speak><audio src="https://vocaroo.com/i/s1OUMNSSRSAH">did not get your audio file</audio></speak>';
+        '<speak><audio src="https://instaud.io/1G7A">did not get your audio file</audio></speak>';
       break;
     case "subete ga f ni naru":
       speech =
-        '<speak><audio src="https://vocaroo.com/i/s1X7jj5FoHYL">did not get your audio file</audio></speak>';
+        '<speak><audio src="https://instaud.io/1G7C">did not get your audio file</audio></speak>';
       break;
     case "isekai":
       speech =
-        '<audio src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio>';
+        '<audio src="https://instaud.io/1G7w">did not get your audio file</audio>';
       break;
   case "delay":
       speech =
