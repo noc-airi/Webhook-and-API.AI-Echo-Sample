@@ -31,23 +31,23 @@ restService.post("/audio", function(req, res) {
   var speech = "";
   switch (req.body.result.parameters.AudioSample.toLowerCase()) {
     //Speech Synthesis Markup Language 
-    case "music one":
+    case "kuzu no honkai":
       speech =
-        '<speak><audio src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio></speak>';
+        '<speak><audio src="https://vocaroo.com/i/s1pG0OMPtzA5">did not get your audio file</audio></speak>';
       break;
-    case "music two":
+    case "log horizon":
       speech =
-        '<speak><audio clipBegin="1s" clipEnd="3s" src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio></speak>';
+        '<speak><audio src="https://vocaroo.com/i/s1BYzTGKxIow">did not get your audio file</audio></speak>';
       break;
-    case "music three":
+    case "parasyte":
       speech =
-        '<speak><audio repeatCount="2" soundLevel="-15db" src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio></speak>';
+        '<speak><audio src="https://vocaroo.com/i/s1OUMNSSRSAH">did not get your audio file</audio></speak>';
       break;
-    case "music four":
+    case "subete ga f ni naru":
       speech =
-        '<speak><audio speed="200%" src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio></speak>';
+        '<speak><audio src="https://vocaroo.com/i/s1X7jj5FoHYL">did not get your audio file</audio></speak>';
       break;
-    case "music five":
+    case "isekai":
       speech =
         '<audio src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio>';
       break;
