@@ -31,27 +31,27 @@ restService.post("/audio", function(req, res) {
   var speech = "";
   switch (req.body.result.parameters.AudioSample.toLowerCase()) {
     //Speech Synthesis Markup Language 
-    case "kuzu no honkai":
+    case "music one":
       speech =
-        '<speak><audio src="https://instaud.io/1G7D">did not get your audio file</audio></speak>';
+        '<speak><audio src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio></speak>';
       break;
-    case "log horizon":
+    case "music two":
       speech =
-        '<speak><audio src="https://instaud.io/1G7z">did not get your audio file</audio></speak>';
+        '<speak><audio clipBegin="1s" clipEnd="3s" src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio></speak>';
       break;
-    case "parasyte":
+    case "music three":
       speech =
-        '<speak><audio src="https://instaud.io/1G7A">did not get your audio file</audio></speak>';
+        '<speak><audio repeatCount="2" soundLevel="-15db" src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio></speak>';
       break;
-    case "subete ga f ni naru":
+    case "music four":
       speech =
-        '<speak><audio src="https://instaud.io/1G7C">did not get your audio file</audio></speak>';
+        '<speak><audio speed="200%" src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio></speak>';
       break;
-    case "isekai":
+    case "music five":
       speech =
-        '<audio src="https://instaud.io/1G7w">did not get your audio file</audio>';
+        '<audio src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio>';
       break;
-  case "delay":
+    case "delay":
       speech =
         '<speak>Let me take a break for 3 seconds. <break time="3s"/> I am back again.</speak>';
       break;
